@@ -1,0 +1,22 @@
+{
+  "name": "express_retpoting-tool",
+  "version": "1.0.0",
+  "description": "a simple express server for damage reporting ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ronyzrihen/express-reporting-tool.git"
+  },
+  "author": "Rony Zrihen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ronyzrihen/express-reporting-tool/issues"
+  },
+  "homepage": "https://github.com/ronyzrihen/express-reporting-tool#readme",
+  "devDependencies": {
+    "prettier": "3.2.4"
+  }
+}
