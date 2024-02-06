@@ -1,13 +1,22 @@
-const { getDamageReports } = require('../repository/damage_repository');
+const DamageRepository = require('../repository/damage_repository');
 
-function  getReports(req, res){
-  const data = getDamageReports;
+const repository = new DamageRepository();
 
+async function getReports(req, res) {
+  const data = await repository.find();
+  res.status(200).json(data);
 }
-function  getReportById(req,
-                        res){}
-function  createReport(req, res){}
-function  updateReport(req, res){}
 
+// async function getReportById(req, res) {
+//
+// }
+//
+// async function createReport(req, res) {
+//
+// }
+//
+// async function updateReport(req, res) {
+//
+// }
 
-module.exports={ getReports, getReportById, createReport, updateReport};
+module.exports = { getReports };
