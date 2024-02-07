@@ -8,3 +8,8 @@
 [2024-02-07T20:05:12.289Z] error: ID was not found
 [2024-02-07T20:05:28.599Z] error: undefined was not found
 [2024-02-07T20:06:41.730Z] error: undefined was not found
+[2024-02-07T21:02:48.590Z] error: ID Already Exist in data base
+[2024-02-07T21:09:26.927Z] error: E11000 duplicate key error collection: expressServer.damagereports index: id_1 dup key: { id: 4 }
+[2024-02-07T21:10:56.843Z] error: ID Already Exist in data base
+[2024-02-07T21:12:07.430Z] error: ID Already Exist in data base
+[2024-02-07T21:27:34.271Z] error: ID Already Exist in data base

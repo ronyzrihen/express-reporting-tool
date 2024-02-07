@@ -47,5 +47,9 @@ class DbConnection extends EventEmitter {
   delete(reportId) {
     return this.Model.deleteOne({ id: reportId });
   }
+
+  exist(reportID) {
+    return this.Model.exists({ id: reportID });
+  }
 }
 module.exports = { DbConnection };
