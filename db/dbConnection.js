@@ -1,37 +1,51 @@
-require('dotenv').config();
 const mongoose = require('mongoose');
-const {
-  DB_HOST, DB_NAME, DB_USER, DB_PASS,
-} = require('./constants');
-
-const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_HOST}/${DB_NAME}`;
-// eslint-disable-next-line import/order
 const path = require('path');
-// const fs = require('fs');
+const EventEmitter = require('events');
+// const { PropertyNotFound } = require('../errors/NotFoundError');
+const constants = require('./constants');
 
-class MongoStorage {
+const {
+  DB_HOST, DB_USER, DB_PASS, DB_NAME,
+} = constants;
+
+class dbConnection extends EventEmitter {
   constructor(entity) {
-    if (DB_USER && DB_PASS && DB_HOST && DB_NAME) { // todo optional check if file exist
-      this.entityName = entity.toLowerCase();
-      // eslint-disable-next-line global-require,import/no-dynamic-require
-      this.Model = require(path.join(__dirname, `../models/${(this.entityName)}.js`));
-      this.connectDB();
-    }
+    super();
+    this.entityName = entity.charAt(0).toUpperCase() + entity.slice(1);
+    // eslint-disable-next-line global-require,import/no-dynamic-require
+    this.Model = require(path.join(__dirname, `../models/${this.entityName}.model.js`));
+    this.connectDB();
   }
 
-  // eslint-disable-next-line class-methods-use-this
   async connectDB() {
+    const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_HOST}/${DB_NAME}`;
     try {
       await mongoose.connect(uri);
-    } catch (e) { console.log('kkk'); } // fixme
+      console.log(`connected to ${this.entityName} collection`);
+    } catch (err) {
+      console.log(`connection error: ${err}`);
+    }
   }
 
   getReports() {
     return this.Model.find({});
   }
 
-  getById(id) {
+  getId(id) {
     return this.Model.find({ id });
   }
+
+  create(report) {
+    // if (!newReport.id) throw PropertyNotFound('id'); // todo check id exist
+    return this.Model.create(report);
+  }
+
+  update(id, body) {
+    return this.Model.updateOne({ id }, body);
+  }
+
+  delete(reportId) {
+    return this.Model.deleteOne({ id: reportId });
+  }
 }
-module.exports = { MongoStorage };
+module.exports = { MongoStorage: dbConnection };
