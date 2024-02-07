@@ -1,8 +1,9 @@
-const { MongoStorage } = require('../db/dbConnection');
+const { DbConnection } = require('../db/dbConnection');
+const { PropertyNotFound } = require('../errors/NotFoundError');
 
 class DamageRepository {
   constructor() {
-    this.storage = new MongoStorage('damage');
+    this.storage = new DbConnection('damage');
   }
 
   find() {
@@ -13,8 +14,10 @@ class DamageRepository {
     return this.storage.getId(id);
   }
 
-  createReport(Report) {
-    return this.storage.create(Report);
+  createReport(report) {
+    if (!report.id) throw new PropertyNotFound('ID');
+    if (this.getOneId(report.id)) throw new PropertyNotFound();
+    return this.storage.create(report);
   }
 
   updateReport(id, body) {

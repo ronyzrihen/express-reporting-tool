@@ -20,7 +20,6 @@ async function getReportById(req, res, next) {
 }
 
 async function createReport(req, res, next) {
-  if (!req.body.id) throw next(new PropertyNotFound('id'));
   try {
     await repository.createReport(req.body);
     res.status(201).json({ Success: 1 });

@@ -8,7 +8,7 @@ const {
   DB_HOST, DB_USER, DB_PASS, DB_NAME,
 } = constants;
 
-class dbConnection extends EventEmitter {
+class DbConnection extends EventEmitter {
   constructor(entity) {
     super();
     this.entityName = entity.charAt(0).toUpperCase() + entity.slice(1);
@@ -21,7 +21,7 @@ class dbConnection extends EventEmitter {
     const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_HOST}/${DB_NAME}`;
     try {
       await mongoose.connect(uri);
-      console.log(`connected to ${this.entityName} collection`);
+      console.log(`connected to ${this.entityName} collection`); // todo change to logger
     } catch (err) {
       console.log(`connection error: ${err}`);
     }
@@ -48,4 +48,4 @@ class dbConnection extends EventEmitter {
     return this.Model.deleteOne({ id: reportId });
   }
 }
-module.exports = { MongoStorage: dbConnection };
+module.exports = { DbConnection };
