@@ -1,8 +1,8 @@
 const express = require('express');
-// eslint-disable-next-line import/no-extraneous-dependencies
 const logger = require('morgan');
 const { errorHandler } = require('../middlewares/errorHendler');
-// todo add back
+require('express-async-errors');
+
 const app = express();
 const port = process.env.PORT || 3000;
 
@@ -15,5 +15,5 @@ const { damageRouter } = require('../routers/damageReportRouter');
 app.use('/damage-reports', damageRouter);
 
 app.use(errorHandler);
-// eslint-disable-next-line no-console
+
 app.listen(port, () => console.log(`Listening on port ${port}`));

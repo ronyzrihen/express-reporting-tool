@@ -7,7 +7,4 @@ require('./db/dbConnection');
 // todo test existing elements in db
 // todo test check before delete
 
-// todo logger
 // todo documentation
-// todo mongo connection almost
-// todo error handling

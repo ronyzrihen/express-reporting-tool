@@ -23,20 +23,19 @@ class DbConnection extends EventEmitter {
       await mongoose.connect(uri);
       console.log(`connected to ${this.entityName} collection`); // todo change to logger
     } catch (err) {
-      console.log(`connection error: ${err}`);
+      throw Error();
     }
   }
 
   getReports() {
-    return this.Model.find({});
+    return this.Model.find();
   }
 
-  getId(id) {
-    return this.Model.find({ id });
+  getId(reportId) {
+    return this.Model.find({ id: reportId });
   }
 
   create(report) {
-    // if (!newReport.id) throw PropertyNotFound('id'); // todo check id exist
     return this.Model.create(report);
   }
 
