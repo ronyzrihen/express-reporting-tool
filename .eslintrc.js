@@ -2,6 +2,7 @@ module.exports = {
   env: {
     browser: true,
     es2021: true,
+    jest: true, // Added Jest environment
   },
   extends: 'airbnb-base',
   overrides: [
@@ -14,6 +15,12 @@ module.exports = {
       ],
       parserOptions: {
         sourceType: 'script',
+      },
+    },
+    {
+      files: ['tests/**/*'],
+      env: {
+        jest: true,
       },
     },
   ],

@@ -6,5 +6,4 @@ require('./db/dbConnection');
 // todo test get requests
 // todo test existing elements in db
 // todo test check before delete
-
 // todo documentation

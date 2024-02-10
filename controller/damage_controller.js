@@ -20,7 +20,7 @@ async function getReports(req, res) {
 async function getReportById(req, res) {
   checkID(req.params.id);
   const data = await repository.getOneId(req.params.id);
-  if (!data) throw new PropertyNotFound('ID');
+  if (!data.length) throw new PropertyNotFound('ID');
   res.status(200).json(data);
 }
 async function createReport(req, res) {
@@ -29,7 +29,7 @@ async function createReport(req, res) {
   const data = await repository.getOneId(id);
   if (data.length) throw new DataAlreadyExist(`ID: ${id}`);
   const createdData = await repository.createReport(req.body);
-  res.status(201).json({ Success: 1, data: createdData });
+  res.status(201).json(createdData);
 }
 
 async function updateReport(req, res) {
@@ -52,5 +52,9 @@ async function deleteReport(req, res) {
 }
 
 module.exports = {
-  getReports, getReportById, createReport, updateReport, deleteReport,
+  getReports,
+  getReportById,
+  createReport,
+  updateReport,
+  deleteReport,
 };

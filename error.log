@@ -42,3 +42,80 @@
 [2024-02-09T13:50:18.134Z] error: 100 was not found
 [2024-02-09T13:51:11.704Z] error: ID: 100  was not found
 [2024-02-09T13:51:23.587Z] error: ID: 100 was not found
+[2024-02-09T18:59:46.936Z] error: ID has an invalid type
+[2024-02-09T19:00:01.982Z] error: ID has an invalid type
+[2024-02-09T19:03:27.777Z] error: ID has an invalid type
+[2024-02-09T19:03:44.380Z] error: ID has an invalid type
+[2024-02-09T19:05:59.272Z] error: ID was not found
+[2024-02-09T19:08:21.542Z] error: ID has an invalid type
+[2024-02-09T19:08:21.544Z] error: ID was not found
+[2024-02-09T19:09:53.690Z] error: ID is an invalid value
+[2024-02-09T19:11:17.601Z] error: ID has an invalid type
+[2024-02-09T19:11:17.603Z] error: ID was not found
+[2024-02-09T19:11:17.605Z] error: ID is an invalid value
+[2024-02-09T19:17:00.783Z] error: Request not implemented
+[2024-02-09T19:19:54.737Z] error: ID is an invalid value
+[2024-02-09T19:32:05.470Z] error: ID was not found
+[2024-02-09T19:32:05.477Z] error: ID has an invalid type
+[2024-02-09T19:32:05.478Z] error: ID was not found
+[2024-02-09T19:32:05.480Z] error: ID is an invalid value
+[2024-02-09T19:32:48.577Z] error: ID was not found
+[2024-02-09T19:32:48.583Z] error: ID has an invalid type
+[2024-02-09T19:32:48.585Z] error: ID was not found
+[2024-02-09T19:32:48.586Z] error: ID is an invalid value
+[2024-02-09T19:33:24.696Z] error: ID was not found
+[2024-02-09T19:33:24.702Z] error: ID has an invalid type
+[2024-02-09T19:33:24.704Z] error: ID was not found
+[2024-02-09T19:33:24.705Z] error: ID is an invalid value
+[2024-02-09T19:41:01.421Z] error: ID was not found
+[2024-02-09T19:41:01.428Z] error: ID has an invalid type
+[2024-02-09T19:41:01.430Z] error: ID was not found
+[2024-02-09T19:41:01.433Z] error: ID is an invalid value
+[2024-02-09T19:42:30.272Z] error: ID: 4 was not found
+[2024-02-09T19:46:46.737Z] error: ID was not found
+[2024-02-09T19:46:46.743Z] error: ID has an invalid type
+[2024-02-09T19:46:46.745Z] error: ID was not found
+[2024-02-09T19:46:46.746Z] error: ID is an invalid value
+[2024-02-09T19:47:28.924Z] error: ID was not found
+[2024-02-09T19:47:28.930Z] error: ID has an invalid type
+[2024-02-09T19:47:28.932Z] error: ID was not found
+[2024-02-09T19:47:28.933Z] error: ID is an invalid value
+[2024-02-09T19:48:20.312Z] error: ID was not found
+[2024-02-09T19:48:20.319Z] error: ID has an invalid type
+[2024-02-09T19:48:20.320Z] error: ID was not found
+[2024-02-09T19:48:20.322Z] error: ID is an invalid value
+[2024-02-09T19:51:04.535Z] error: ID was not found
+[2024-02-09T19:51:04.542Z] error: ID has an invalid type
+[2024-02-09T19:51:04.543Z] error: ID was not found
+[2024-02-09T19:51:04.545Z] error: ID is an invalid value
+[2024-02-09T19:53:03.850Z] error: ID was not found
+[2024-02-09T19:53:03.857Z] error: ID has an invalid type
+[2024-02-09T19:53:03.859Z] error: ID was not found
+[2024-02-09T19:53:03.860Z] error: ID is an invalid value
+[2024-02-09T19:56:08.201Z] error: ID was not found
+[2024-02-09T19:56:08.208Z] error: ID has an invalid type
+[2024-02-09T19:56:08.210Z] error: ID was not found
+[2024-02-09T19:56:08.213Z] error: ID is an invalid value
+[2024-02-09T19:57:31.425Z] error: ID was not found
+[2024-02-09T19:57:31.432Z] error: ID has an invalid type
+[2024-02-09T19:57:31.433Z] error: ID was not found
+[2024-02-09T19:57:31.435Z] error: ID is an invalid value
+[2024-02-09T19:59:50.203Z] error: ID has an invalid type
+[2024-02-09T19:59:50.205Z] error: ID was not found
+[2024-02-09T19:59:50.206Z] error: ID is an invalid value
+[2024-02-09T20:02:52.119Z] error: ID has an invalid type
+[2024-02-09T20:02:52.121Z] error: ID was not found
+[2024-02-09T20:02:52.122Z] error: ID is an invalid value
+[2024-02-09T20:02:52.134Z] error: ID not provided
+[2024-02-09T20:03:38.776Z] error: ID has an invalid type
+[2024-02-09T20:03:38.779Z] error: ID was not found
+[2024-02-09T20:03:38.780Z] error: ID is an invalid value
+[2024-02-09T20:05:33.635Z] error: ID has an invalid type
+[2024-02-09T20:05:33.637Z] error: ID was not found
+[2024-02-09T20:05:33.639Z] error: ID is an invalid value
+[2024-02-09T20:08:08.286Z] error: ID has an invalid type
+[2024-02-09T20:08:08.289Z] error: ID was not found
+[2024-02-09T20:08:08.291Z] error: ID is an invalid value
+[2024-02-09T20:09:05.538Z] error: ID has an invalid type
+[2024-02-09T20:09:05.542Z] error: ID was not found
+[2024-02-09T20:09:05.543Z] error: ID is an invalid value
