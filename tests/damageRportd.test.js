@@ -83,9 +83,11 @@ describe('GET /damage-reports/:id', () => {
     expect(response.body).toEqual(expectedResult);
   });
   it('responds with an 400 - ID already exist', async () => {
+    const dataSent = { id: 10, type: 'Type1', description: 'Report 1' };
     const expectedResult = { message: 'ID: 10 already exist in database' };
     jest.spyOn(DamageRepository.prototype, 'createReport').mockResolvedValue(expectedResult);
-    const response = await request(app).post('/damage-reports/').send({ id: 10, type: 'Type1', description: 'Report 1' }).set('Content-Type', 'application/json');
+    jest.spyOn(DamageRepository.prototype, 'getOneId').mockResolvedValue([dataSent]);
+    const response = await request(app).post('/damage-reports/').send(dataSent).set('Content-Type', 'application/json');
     expect(response.status).toBe(400);
     console.log(response.body, expectedResult);
     expect(response.body).toEqual(expectedResult);

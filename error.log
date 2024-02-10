@@ -119,3 +119,26 @@
 [2024-02-09T20:09:05.538Z] error: ID has an invalid type
 [2024-02-09T20:09:05.542Z] error: ID was not found
 [2024-02-09T20:09:05.543Z] error: ID is an invalid value
+[2024-02-10T05:56:28.919Z] error: ID has an invalid type
+[2024-02-10T05:56:28.921Z] error: ID was not found
+[2024-02-10T05:56:28.923Z] error: ID is an invalid value
+[2024-02-10T05:56:32.104Z] error: ID has an invalid type
+[2024-02-10T05:56:32.108Z] error: ID was not found
+[2024-02-10T05:56:32.111Z] error: ID is an invalid value
+[2024-02-10T05:57:18.274Z] error: ID has an invalid type
+[2024-02-10T05:57:18.276Z] error: ID was not found
+[2024-02-10T05:57:18.278Z] error: ID is an invalid value
+[2024-02-10T05:57:47.776Z] error: ID has an invalid type
+[2024-02-10T05:57:47.780Z] error: ID was not found
+[2024-02-10T05:57:47.782Z] error: ID is an invalid value
+[2024-02-10T05:58:30.400Z] error: ID has an invalid type
+[2024-02-10T05:58:30.404Z] error: ID was not found
+[2024-02-10T05:58:30.407Z] error: ID is an invalid value
+[2024-02-10T06:02:42.645Z] error: ID has an invalid type
+[2024-02-10T06:02:42.649Z] error: ID was not found
+[2024-02-10T06:02:42.652Z] error: ID is an invalid value
+[2024-02-10T06:02:46.995Z] error: ID: 10 already exist in database
+[2024-02-10T06:02:53.997Z] error: ID has an invalid type
+[2024-02-10T06:02:53.999Z] error: ID was not found
+[2024-02-10T06:02:54.001Z] error: ID is an invalid value
+[2024-02-10T06:02:54.015Z] error: ID: 10 already exist in database
