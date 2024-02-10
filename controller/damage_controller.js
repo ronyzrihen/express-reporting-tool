@@ -38,7 +38,8 @@ async function updateReport(req, res) {
   const paramID = req.params.id;
   const bodyID = req.body.id;
   const existingData = await repository.getOneId(bodyID);
-  if (parseFloat(paramID) !== parseFloat(bodyID) && existingData) throw new DataAlreadyExist(`New ID: ${bodyID}`);
+  if (!existingData.length) throw new PropertyNotFound(`ID ${paramID}`);
+  if (parseFloat(paramID) !== parseFloat(bodyID) && existingData.length) throw new DataAlreadyExist(`New ID: ${bodyID}`);
   await repository.updateReport(paramID, req.body);
   res.status(201).json({ success: 1 });
 }
@@ -48,7 +49,7 @@ async function deleteReport(req, res) {
   const exist = await repository.getOneId(req.params.id);
   if (!exist.length) throw new PropertyNotFound(`ID: ${req.params.id}`);
   await repository.delete(req.params.id);
-  res.status(410).json({ success: 1 });
+  res.status(200).json({ success: 1 });
 }
 
 module.exports = {

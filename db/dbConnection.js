@@ -21,7 +21,7 @@ class DbConnection extends EventEmitter {
     const uri = `mongodb+srv://${DB_USER}:${DB_PASS}@${DB_HOST}/${DB_NAME}`;
     try {
       await mongoose.connect(uri);
-      console.log(`connected to ${this.entityName} collection`); // todo change to logger
+      console.log(`connected to ${this.entityName} collection`);
     } catch (err) {
       throw Error();
     }

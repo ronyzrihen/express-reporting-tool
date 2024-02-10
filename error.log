@@ -142,3 +142,242 @@
 [2024-02-10T06:02:53.999Z] error: ID was not found
 [2024-02-10T06:02:54.001Z] error: ID is an invalid value
 [2024-02-10T06:02:54.015Z] error: ID: 10 already exist in database
+[2024-02-10T10:35:46.077Z] error: ID has an invalid type
+[2024-02-10T10:35:46.079Z] error: ID was not found
+[2024-02-10T10:35:46.080Z] error: ID is an invalid value
+[2024-02-10T10:35:46.091Z] error: ID: 10 already exist in database
+[2024-02-10T10:35:46.094Z] error: ID not provided
+[2024-02-10T10:39:41.123Z] error: ID has an invalid type
+[2024-02-10T10:39:41.126Z] error: ID was not found
+[2024-02-10T10:39:41.127Z] error: ID is an invalid value
+[2024-02-10T10:39:41.140Z] error: ID: 10 already exist in database
+[2024-02-10T10:39:41.144Z] error: ID not provided
+[2024-02-10T10:46:18.166Z] error: New ID: 5 already exist in database
+[2024-02-10T10:58:31.333Z] error: ID has an invalid type
+[2024-02-10T10:58:31.336Z] error: ID was not found
+[2024-02-10T10:58:31.339Z] error: ID is an invalid value
+[2024-02-10T10:58:31.350Z] error: ID: 10 already exist in database
+[2024-02-10T10:58:31.352Z] error: ID not provided
+[2024-02-10T10:58:31.355Z] error: ID: 10 already exist in database
+[2024-02-10T11:08:44.240Z] error: ID has an invalid type
+[2024-02-10T11:08:44.244Z] error: ID was not found
+[2024-02-10T11:08:44.246Z] error: ID is an invalid value
+[2024-02-10T11:08:44.257Z] error: ID: 10 already exist in database
+[2024-02-10T11:08:44.259Z] error: ID not provided
+[2024-02-10T11:08:44.262Z] error: ID: 10 already exist in database
+[2024-02-10T11:10:02.265Z] error: ID has an invalid type
+[2024-02-10T11:10:02.267Z] error: ID was not found
+[2024-02-10T11:10:02.270Z] error: ID is an invalid value
+[2024-02-10T11:10:02.282Z] error: ID: 10 already exist in database
+[2024-02-10T11:10:02.284Z] error: ID not provided
+[2024-02-10T11:10:02.287Z] error: Request not implemented
+[2024-02-10T11:10:14.504Z] error: ID has an invalid type
+[2024-02-10T11:10:14.506Z] error: ID was not found
+[2024-02-10T11:10:14.508Z] error: ID is an invalid value
+[2024-02-10T11:10:14.520Z] error: ID: 10 already exist in database
+[2024-02-10T11:10:14.522Z] error: ID not provided
+[2024-02-10T11:10:14.525Z] error: Request not implemented
+[2024-02-10T11:10:30.139Z] error: ID has an invalid type
+[2024-02-10T11:10:30.141Z] error: ID was not found
+[2024-02-10T11:10:30.142Z] error: ID is an invalid value
+[2024-02-10T11:10:30.153Z] error: ID: 10 already exist in database
+[2024-02-10T11:10:30.157Z] error: ID not provided
+[2024-02-10T11:22:07.552Z] error: ID has an invalid type
+[2024-02-10T11:22:07.554Z] error: ID was not found
+[2024-02-10T11:22:07.556Z] error: ID is an invalid value
+[2024-02-10T11:22:07.567Z] error: ID: 10 already exist in database
+[2024-02-10T11:22:07.569Z] error: ID not provided
+[2024-02-10T11:22:07.574Z] error: Request not implemented
+[2024-02-10T11:26:04.810Z] error: ID has an invalid type
+[2024-02-10T11:26:04.812Z] error: ID was not found
+[2024-02-10T11:26:04.816Z] error: ID is an invalid value
+[2024-02-10T11:26:04.827Z] error: ID: 10 already exist in database
+[2024-02-10T11:26:04.829Z] error: ID not provided
+[2024-02-10T11:26:04.833Z] error: Request not implemented
+[2024-02-10T11:26:29.962Z] error: ID has an invalid type
+[2024-02-10T11:26:29.966Z] error: ID was not found
+[2024-02-10T11:26:29.969Z] error: ID is an invalid value
+[2024-02-10T11:26:29.983Z] error: ID: 10 already exist in database
+[2024-02-10T11:26:29.987Z] error: ID not provided
+[2024-02-10T11:26:46.230Z] error: ID has an invalid type
+[2024-02-10T11:26:46.234Z] error: ID was not found
+[2024-02-10T11:26:46.237Z] error: ID is an invalid value
+[2024-02-10T11:26:46.251Z] error: ID: 10 already exist in database
+[2024-02-10T11:26:46.254Z] error: ID not provided
+[2024-02-10T11:26:54.067Z] error: Request not implemented
+[2024-02-10T11:27:28.836Z] error: ID has an invalid type
+[2024-02-10T11:27:28.840Z] error: ID was not found
+[2024-02-10T11:27:28.843Z] error: ID is an invalid value
+[2024-02-10T11:27:28.857Z] error: ID: 10 already exist in database
+[2024-02-10T11:27:28.860Z] error: ID not provided
+[2024-02-10T11:32:42.870Z] error: ID has an invalid type
+[2024-02-10T11:32:42.874Z] error: ID was not found
+[2024-02-10T11:32:42.876Z] error: ID is an invalid value
+[2024-02-10T11:32:42.891Z] error: ID: 10 already exist in database
+[2024-02-10T11:32:42.894Z] error: ID not provided
+[2024-02-10T11:33:05.858Z] error: ID has an invalid type
+[2024-02-10T11:33:05.862Z] error: ID was not found
+[2024-02-10T11:33:05.865Z] error: ID is an invalid value
+[2024-02-10T11:33:05.881Z] error: ID: 10 already exist in database
+[2024-02-10T11:33:05.884Z] error: ID not provided
+[2024-02-10T11:33:05.888Z] error: Request not implemented
+[2024-02-10T11:33:10.929Z] error: ID has an invalid type
+[2024-02-10T11:33:10.933Z] error: ID was not found
+[2024-02-10T11:33:10.936Z] error: ID is an invalid value
+[2024-02-10T11:33:10.949Z] error: ID: 10 already exist in database
+[2024-02-10T11:33:10.953Z] error: ID not provided
+[2024-02-10T11:33:10.957Z] error: Request not implemented
+[2024-02-10T11:33:41.625Z] error: ID has an invalid type
+[2024-02-10T11:33:41.629Z] error: ID was not found
+[2024-02-10T11:33:41.632Z] error: ID is an invalid value
+[2024-02-10T11:33:41.647Z] error: ID: 10 already exist in database
+[2024-02-10T11:33:41.651Z] error: ID not provided
+[2024-02-10T11:34:03.854Z] error: Request not implemented
+[2024-02-10T11:35:11.483Z] error: ID has an invalid type
+[2024-02-10T11:35:11.485Z] error: ID was not found
+[2024-02-10T11:35:11.487Z] error: ID is an invalid value
+[2024-02-10T11:35:11.501Z] error: ID: 10 already exist in database
+[2024-02-10T11:35:11.503Z] error: ID not provided
+[2024-02-10T11:35:11.506Z] error: Request not implemented
+[2024-02-10T11:36:37.930Z] error: ID has an invalid type
+[2024-02-10T11:36:37.934Z] error: ID was not found
+[2024-02-10T11:36:37.936Z] error: ID is an invalid value
+[2024-02-10T11:36:37.952Z] error: ID: 10 already exist in database
+[2024-02-10T11:36:37.956Z] error: ID not provided
+[2024-02-10T11:36:37.961Z] error: Request not implemented
+[2024-02-10T11:42:05.973Z] error: ID has an invalid type
+[2024-02-10T11:42:05.977Z] error: ID was not found
+[2024-02-10T11:42:05.980Z] error: ID is an invalid value
+[2024-02-10T11:42:05.995Z] error: ID: 10 already exist in database
+[2024-02-10T11:42:05.998Z] error: ID not provided
+[2024-02-10T11:42:06.003Z] error: Request not implemented
+[2024-02-10T11:42:25.721Z] error: ID has an invalid type
+[2024-02-10T11:42:25.723Z] error: ID was not found
+[2024-02-10T11:42:25.725Z] error: ID is an invalid value
+[2024-02-10T11:42:25.736Z] error: ID: 10 already exist in database
+[2024-02-10T11:42:25.737Z] error: ID not provided
+[2024-02-10T11:42:25.740Z] error: New ID: 10 already exist in database
+[2024-02-10T11:42:38.147Z] error: ID has an invalid type
+[2024-02-10T11:42:38.149Z] error: ID was not found
+[2024-02-10T11:42:38.151Z] error: ID is an invalid value
+[2024-02-10T11:42:38.162Z] error: ID: 10 already exist in database
+[2024-02-10T11:42:38.164Z] error: ID not provided
+[2024-02-10T11:42:38.171Z] error: New ID: 10 already exist in database
+[2024-02-10T11:46:22.503Z] error: ID has an invalid type
+[2024-02-10T11:46:22.505Z] error: ID was not found
+[2024-02-10T11:46:22.508Z] error: ID is an invalid value
+[2024-02-10T11:46:22.520Z] error: ID: 10 already exist in database
+[2024-02-10T11:46:22.521Z] error: ID not provided
+[2024-02-10T11:46:22.526Z] error: New ID: 10 already exist in database
+[2024-02-10T11:46:22.529Z] error: Request not implemented
+[2024-02-10T11:46:37.522Z] error: ID has an invalid type
+[2024-02-10T11:46:37.525Z] error: ID was not found
+[2024-02-10T11:46:37.526Z] error: ID is an invalid value
+[2024-02-10T11:46:37.538Z] error: ID: 10 already exist in database
+[2024-02-10T11:46:37.540Z] error: ID not provided
+[2024-02-10T11:46:37.546Z] error: New ID: 10 already exist in database
+[2024-02-10T11:46:37.549Z] error: Request not implemented
+[2024-02-10T11:47:18.660Z] error: New ID: 5 already exist in database
+[2024-02-10T11:47:29.227Z] error: Class constructor PropertyNotFound cannot be invoked without 'new'
+[2024-02-10T11:48:15.229Z] error: ID 10 was not found
+[2024-02-10T11:53:36.904Z] error: ID has an invalid type
+[2024-02-10T11:53:36.907Z] error: ID was not found
+[2024-02-10T11:53:36.908Z] error: ID is an invalid value
+[2024-02-10T11:53:36.919Z] error: ID: 10 already exist in database
+[2024-02-10T11:53:36.921Z] error: ID not provided
+[2024-02-10T11:53:36.927Z] error: New ID: 10 already exist in database
+[2024-02-10T11:53:36.931Z] error: Request not implemented
+[2024-02-10T11:53:50.045Z] error: ID: 4 already exist in database
+[2024-02-10T11:56:57.471Z] error: ID has an invalid type
+[2024-02-10T11:56:57.474Z] error: ID was not found
+[2024-02-10T11:56:57.476Z] error: ID is an invalid value
+[2024-02-10T11:56:57.486Z] error: ID: 10 already exist in database
+[2024-02-10T11:56:57.488Z] error: ID not provided
+[2024-02-10T11:56:57.494Z] error: New ID: 10 already exist in database
+[2024-02-10T11:56:57.497Z] error: Request not implemented
+[2024-02-10T12:00:32.217Z] error: ID has an invalid type
+[2024-02-10T12:00:32.220Z] error: ID was not found
+[2024-02-10T12:00:32.221Z] error: ID is an invalid value
+[2024-02-10T12:00:32.232Z] error: ID: 10 already exist in database
+[2024-02-10T12:00:32.234Z] error: ID not provided
+[2024-02-10T12:00:32.241Z] error: New ID: 10 already exist in database
+[2024-02-10T12:00:32.243Z] error: ID 10 was not found
+[2024-02-10T12:03:42.311Z] error: ID has an invalid type
+[2024-02-10T12:03:42.314Z] error: ID was not found
+[2024-02-10T12:03:42.316Z] error: ID is an invalid value
+[2024-02-10T12:03:42.326Z] error: ID: 10 already exist in database
+[2024-02-10T12:03:42.328Z] error: ID not provided
+[2024-02-10T12:03:42.334Z] error: New ID: 10 already exist in database
+[2024-02-10T12:03:42.335Z] error: ID 10 was not found
+[2024-02-10T12:04:26.533Z] error: ID has an invalid type
+[2024-02-10T12:04:26.535Z] error: ID was not found
+[2024-02-10T12:04:26.537Z] error: ID is an invalid value
+[2024-02-10T12:04:26.549Z] error: ID: 10 already exist in database
+[2024-02-10T12:04:26.551Z] error: ID not provided
+[2024-02-10T12:04:26.557Z] error: New ID: 10 already exist in database
+[2024-02-10T12:04:26.558Z] error: ID 10 was not found
+[2024-02-10T12:05:01.808Z] error: ID has an invalid type
+[2024-02-10T12:05:01.810Z] error: ID was not found
+[2024-02-10T12:05:01.812Z] error: ID is an invalid value
+[2024-02-10T12:05:01.826Z] error: ID: 10 already exist in database
+[2024-02-10T12:05:01.827Z] error: ID not provided
+[2024-02-10T12:05:01.833Z] error: New ID: 10 already exist in database
+[2024-02-10T12:05:01.834Z] error: ID 10 was not found
+[2024-02-10T12:05:30.743Z] error: ID has an invalid type
+[2024-02-10T12:05:30.745Z] error: ID was not found
+[2024-02-10T12:05:30.747Z] error: ID is an invalid value
+[2024-02-10T12:05:30.758Z] error: ID: 10 already exist in database
+[2024-02-10T12:05:30.761Z] error: ID not provided
+[2024-02-10T12:05:30.766Z] error: New ID: 10 already exist in database
+[2024-02-10T12:05:30.767Z] error: ID 10 was not found
+[2024-02-10T12:06:30.801Z] error: ID has an invalid type
+[2024-02-10T12:06:30.804Z] error: ID was not found
+[2024-02-10T12:06:30.805Z] error: ID is an invalid value
+[2024-02-10T12:06:30.816Z] error: ID: 10 already exist in database
+[2024-02-10T12:06:30.819Z] error: ID not provided
+[2024-02-10T12:06:30.825Z] error: New ID: 10 already exist in database
+[2024-02-10T12:06:30.827Z] error: ID 10 was not found
+[2024-02-10T12:06:30.832Z] error: ID: 10 was not found
+[2024-02-10T12:06:39.461Z] error: ID has an invalid type
+[2024-02-10T12:06:39.463Z] error: ID was not found
+[2024-02-10T12:06:39.465Z] error: ID is an invalid value
+[2024-02-10T12:06:39.475Z] error: ID: 10 already exist in database
+[2024-02-10T12:06:39.477Z] error: ID not provided
+[2024-02-10T12:06:39.482Z] error: New ID: 10 already exist in database
+[2024-02-10T12:06:39.484Z] error: ID 10 was not found
+[2024-02-10T12:06:39.488Z] error: ID: 10 was not found
+[2024-02-10T12:07:15.833Z] error: ID has an invalid type
+[2024-02-10T12:07:15.835Z] error: ID was not found
+[2024-02-10T12:07:15.838Z] error: ID is an invalid value
+[2024-02-10T12:07:15.849Z] error: ID: 10 already exist in database
+[2024-02-10T12:07:15.851Z] error: ID not provided
+[2024-02-10T12:07:15.856Z] error: New ID: 10 already exist in database
+[2024-02-10T12:07:15.857Z] error: ID 10 was not found
+[2024-02-10T12:07:15.861Z] error: ID: 10 was not found
+[2024-02-10T12:12:57.572Z] error: ID has an invalid type
+[2024-02-10T12:12:57.575Z] error: ID was not found
+[2024-02-10T12:12:57.577Z] error: ID is an invalid value
+[2024-02-10T12:12:57.588Z] error: ID: 10 already exist in database
+[2024-02-10T12:12:57.590Z] error: ID not provided
+[2024-02-10T12:12:57.595Z] error: New ID: 10 already exist in database
+[2024-02-10T12:12:57.596Z] error: ID 10 was not found
+[2024-02-10T12:12:57.600Z] error: ID: 10 was not found
+[2024-02-10T12:12:57.602Z] error: ID: 10 was not found
+[2024-02-10T12:15:13.641Z] error: ID has an invalid type
+[2024-02-10T12:15:13.643Z] error: ID was not found
+[2024-02-10T12:15:13.646Z] error: ID is an invalid value
+[2024-02-10T12:15:13.658Z] error: ID: 10 already exist in database
+[2024-02-10T12:15:13.659Z] error: ID not provided
+[2024-02-10T12:15:13.664Z] error: New ID: 10 already exist in database
+[2024-02-10T12:15:13.666Z] error: ID 10 was not found
+[2024-02-10T12:15:13.669Z] error: ID: 10 was not found
+[2024-02-10T12:15:13.671Z] error: Request not implemented
+[2024-02-10T12:18:06.642Z] error: ID has an invalid type
+[2024-02-10T12:18:06.644Z] error: ID was not found
+[2024-02-10T12:18:06.646Z] error: ID is an invalid value
+[2024-02-10T12:18:06.658Z] error: ID: 10 already exist in database
+[2024-02-10T12:18:06.660Z] error: ID not provided
+[2024-02-10T12:18:06.665Z] error: New ID: 10 already exist in database
+[2024-02-10T12:18:06.667Z] error: ID 10 was not found
+[2024-02-10T12:18:06.671Z] error: ID: 10 was not found
+[2024-02-10T12:18:06.673Z] error: Request not implemented
