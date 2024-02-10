@@ -159,7 +159,7 @@ The server consists of the following components:
 
 To facilitate testing and interaction with the API endpoints, you can import the following Postman collection that includes example requests for each supported endpoint:
 
-[![Run in Postman](https://run.pstmn.io/button.svg)](https://www.getpostman.com/collections/your-postman-collection-id)
+[![Run in Postman](https://run.pstmn.io/button.svg)](https://documenter.getpostman.com/view/32069376/2s9YyzeJyC)
 
 Clicking the button will import the collection into your Postman workspace, allowing you to explore and interact with the API.
 
