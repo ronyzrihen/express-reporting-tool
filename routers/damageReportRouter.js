@@ -1,5 +1,5 @@
 const { Router } = require('express');
-const { NotImplementedError } = require('../errors/NotImplementedError');
+const { NotImplementedError } = require('../errors/ServerError');
 const {
   getReports, getReportById, createReport, updateReport, deleteReport,
 } = require('../controller/damage_controller');

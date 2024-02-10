@@ -138,20 +138,21 @@ To run the tests, use the following command:
 # Run tests
 npm run test
 ```
-
+### If everything runs smoothly, you should expect to see something like this.
+![img_2.png](img_2.png)
 ## Features
 
 The server consists of the following components:
 
-- **index.js**: Server Bootstrap, runs server.
-- **server/server.js**: Contains Express app, runs router and other middleware.
-- **server/app.js**: Decouples main server middleware from "app.listen" process for testing purposes.
-- **router/damageReportRouter.js**: HTTP handler for routing request and response to server logic.
-- **controller/damage_controller.js**: Handles server's logic and checking for errors.
-- **repository/damage_repository.js**: Handles server DB requests.
-- **db/dbConnection.js**: Connects and directly interacts with MongoDB using Mongoose.
-- **models/Damage.model.js**: Contains schema and model creation for data insertion to the DB.
-- **middlewares/**: Contains middleware for handling errors and creating error logs.
+- **index.js**: This file serves as the server bootstrap and is responsible for initializing and running the server.
+- **server/server.js**: This file contains the Express application and is responsible for handling routing and other middleware configurations.
+- **server/app.js**: Designed to decouple the main server middleware from the "app.listen" process, this file facilitates testing purposes by separating out critical middleware configurations.
+- **router/damageReportRouter.js**: Serving as an HTTP handler, this module manages the routing of requests and responses to and from the server's logic.
+- **controller/damage_controller.js**: This controller module is tasked with managing the server's logic, including the handling of business rules and error checking.
+- **repository/damage_repository.js**: Responsible for handling requests to the server's database, this module interacts with the database layer to perform CRUD operations.
+- **db/dbConnection.js**: Specifically tailored for interacting with MongoDB using Mongoose, this module establishes connections to the database and enables direct interaction.
+- **models/Damage.model.js**: Housing the schema and model definitions for data insertion into the database, this module provides the structure for storing data.
+- **middlewares/**: This directory contains middleware functions dedicated to handling errors and generating error logs, ensuring robust error management within the server application.
 
 
 ## Postman Examples
