@@ -39,7 +39,7 @@ class DbConnection extends EventEmitter {
   }
 
   getTitle(title) {
-    return this.Model.find({ title });
+    return this.Model.find({ title: { $regex: title, $options: 'i' } });
   }
 
   create(report) {
