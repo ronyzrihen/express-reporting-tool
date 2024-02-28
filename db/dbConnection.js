@@ -14,7 +14,6 @@ class DbConnection extends EventEmitter {
   constructor(entity) {
     super();
     this.entityName = entity.charAt(0).toUpperCase() + entity.slice(1);
-    // eslint-disable-next-line global-require,import/no-dynamic-require
     this.Model = require(path.join(__dirname, `../models/${this.entityName}.model.js`));
     this.connectDB();
   }
