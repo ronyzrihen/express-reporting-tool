@@ -1,6 +1,8 @@
 const mongoose = require('mongoose');
+const objectId = require('mongoose').Types.ObjectId;
 const path = require('path');
 const EventEmitter = require('events');
+const { ValueError } = require('../errors/DataError');
 // const { PropertyNotFound } = require('../errors/NotFoundError');
 const constants = require('./constants');
 
@@ -32,7 +34,12 @@ class DbConnection extends EventEmitter {
   }
 
   getId(reportId) {
-    return this.Model.find({ id: reportId });
+    if (!objectId.isValid(reportId)) throw new ValueError('ID');
+    return this.Model.find({ _id: reportId });
+  }
+
+  getTitle(title) {
+    return this.Model.find({ title });
   }
 
   create(report) {
@@ -40,15 +47,12 @@ class DbConnection extends EventEmitter {
   }
 
   update(id, body) {
-    return this.Model.updateOne({ id }, body);
+    return this.Model.updateOne({ _id: id }, body);
   }
 
   delete(reportId) {
-    return this.Model.deleteOne({ id: reportId });
-  }
-
-  exist(reportID) {
-    return this.Model.exists({ id: reportID });
+    if (!objectId.isValid(reportId)) throw new ValueError('ID');
+    return this.Model.deleteOne({ _id: reportId });
   }
 }
 module.exports = { DbConnection };

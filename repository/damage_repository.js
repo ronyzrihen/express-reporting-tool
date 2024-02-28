@@ -13,6 +13,10 @@ class DamageRepository {
     return this.storage.getId(id);
   }
 
+  getTitles(title) {
+    return this.storage.getTitle(title);
+  }
+
   createReport(report) {
     return this.storage.create(report);
   }

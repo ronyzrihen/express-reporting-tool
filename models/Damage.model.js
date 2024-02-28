@@ -1,8 +1,8 @@
 const { Schema, model } = require('mongoose');
 
 const damageSchema = new Schema({
-  id: { type: Number, unique: true },
+  title: { type: String, required: true },
   type: { type: String },
-  desc: { type: String },
+  desc: { type: String, required: true },
 });
-module.exports = model('damageReports', damageSchema);
+module.exports = model('reports', damageSchema);

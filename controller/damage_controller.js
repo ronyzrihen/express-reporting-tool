@@ -6,8 +6,8 @@ const {
 
 function checkID(id) {
   if (!id) throw new PropertyNotProvided('ID');
-  if (!/^-?\d*\.?\d+$/.test(id)) throw new TypeError('ID');
-  if (id < 0) throw new ValueError('ID');
+  // if (!/^-?\d*\.?\d+$/.test(id)) throw new TypeError('ID');
+  // if (id < 0) throw new ValueError('ID');
 }
 
 const repository = new DamageRepository();
@@ -23,23 +23,25 @@ async function getReportById(req, res) {
   if (!data.length) throw new PropertyNotFound('ID');
   res.status(200).json(data);
 }
+const getReportByTitle = async (req, res) => {
+  const { title } = req.params;
+  if (!title) throw new PropertyNotProvided('Title');
+  const data = await repository.getTitles(title);
+  if (!data.length) throw new PropertyNotFound('Title');
+  res.status(200).json(data);
+};
 async function createReport(req, res) {
-  checkID(req.body.id);
-  const { id } = req.body;
-  const data = await repository.getOneId(id);
-  if (data.length) throw new DataAlreadyExist(`ID: ${id}`);
+  if (!req.body.title) throw new PropertyNotProvided('title');
+  if (!req.body.desc) throw new PropertyNotProvided('description');
   const createdData = await repository.createReport(req.body);
   res.status(201).json(createdData);
 }
 
 async function updateReport(req, res) {
   checkID(req.params.id);
-  checkID(req.body.id);
   const paramID = req.params.id;
-  const bodyID = req.body.id;
-  const existingData = await repository.getOneId(bodyID);
+  const existingData = await repository.getOneId(paramID);
   if (!existingData.length) throw new PropertyNotFound(`ID ${paramID}`);
-  if (parseFloat(paramID) !== parseFloat(bodyID) && existingData.length) throw new DataAlreadyExist(`New ID: ${bodyID}`);
   await repository.updateReport(paramID, req.body);
   res.status(201).json({ success: 1 });
 }
@@ -54,6 +56,7 @@ async function deleteReport(req, res) {
 
 module.exports = {
   getReports,
+  getReportByTitle,
   getReportById,
   createReport,
   updateReport,

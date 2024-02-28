@@ -1,11 +1,12 @@
 const { Router } = require('express');
 const { NotImplementedError } = require('../errors/ServerError');
 const {
-  getReports, getReportById, createReport, updateReport, deleteReport,
+  getReports, getReportByTitle, getReportById, createReport, updateReport, deleteReport,
 } = require('../controller/damage_controller');
 
 const damageRouter = new Router();
 damageRouter.get('/', getReports);
+damageRouter.get('/title/:title', getReportByTitle);
 damageRouter.get('/:id', getReportById);
 damageRouter.post('/', createReport);
 damageRouter.put('/:id', updateReport);
